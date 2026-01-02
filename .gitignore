@@ -40,3 +40,6 @@ Thumbs.db
 
 # HAR files (contain sensitive network data)
 *.har
+
+# Docker overrides
+docker-compose.override.yml
