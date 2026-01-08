@@ -214,16 +214,6 @@ export default function Home() {
                     {displayBook.title}
                   </h2>
                   <p className="text-gray-600">by {displayBook.author}</p>
-                  <p className="mt-3 text-emerald-600 font-medium">
-                    {data.reviews.length} positive review
-                    {data.reviews.length !== 1 ? "s" : ""} on this page
-                    {data.totalCount && data.totalCount > 0 && (
-                      <span className="text-gray-500 font-normal">
-                        {" "}
-                        ({data.totalCount.toLocaleString()} total reviews)
-                      </span>
-                    )}
-                  </p>
                 </div>
               </div>
             </div>
